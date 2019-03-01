@@ -51,7 +51,7 @@ def full_board(board):
 def player_choice(board):
     position=0
     while position not in list(range(1,10)) or not space_check(board,position):
-        position=int(input('Whats your next position: '))
+        position=int(input('Whats your next position:'))
     return position
 def replay():
      return input("DO you want to play again: ").lower().startswith('y')
