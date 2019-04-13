@@ -44,7 +44,7 @@ def toss():
 def space_check(board,position):
     return board[position]==' '
 def full_board(board):
-    for i in range(0,10):
+    for i in range(1,10):
         if space_check(board,i):
             return False
     return True
